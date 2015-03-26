@@ -1,0 +1,12 @@
+[
+  "lib/theatre.js",
+  "lib/theatre/keyboard.js",
+  "lib/theatre/utils.js",
+  "lib/theatre/collider.js",
+  "lib/theatre/utils/launch-and-bind.js",
+  "lib/theatre/game-loop.js",
+  "lib/theatre/screen.js",
+  "lib/theatre/graphics.js",
+  "lib/theatre/graphics/box.js",
+  "lib/theatre/graphics/circle.js"
+]

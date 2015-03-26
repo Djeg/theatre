@@ -1,0 +1,36 @@
+{
+  "name": "theatre",
+  "version": "0.0.1",
+  "description": "A simple 2D low level engine for javascript",
+  "main": "build/theatre.js",
+  "scripts": {
+    "test": "./node_modules/.bin/gulp test",
+    "generate:doc": "./node_modules/.bin/gulp doc",
+    "build": "./node_modules/.bin/gulp build",
+    "watch": "./node_modules/.bin/gulp watch"
+  },
+  "keywords": [
+    "game",
+    "engine",
+    "2D",
+    "library",
+    "low",
+    "level",
+    "object"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-concat": "^2.5.2",
+    "gulp-jsdoc": "^0.1.4",
+    "gulp-jshint": "^1.9.2",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^1.1.0",
+    "jshint-stylish": "^1.0.1",
+    "karma": "^0.12.31",
+    "karma-jasmine": "^0.3.5",
+    "karma-mocha-reporter": "^1.0.0",
+    "karma-phantomjs-launcher": "^0.1.4"
+  }
+}
