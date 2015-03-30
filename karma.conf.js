@@ -6,7 +6,8 @@ module.exports = function (config) {
     frameworks: ['jasmine'],
     basePath: '',
     files: [
-      'spec/fixtures/setup.js'
+      'spec/fixtures/setup.js',
+      {pattern: 'spec/fixtures/*.png', included: false, watched: false, served: true}
     ].concat(sources).concat([,
       'spec/**/*.js'
     ]),

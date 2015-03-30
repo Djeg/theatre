@@ -8,5 +8,6 @@
   "lib/theatre/screen.js",
   "lib/theatre/graphics.js",
   "lib/theatre/graphics/box.js",
-  "lib/theatre/graphics/circle.js"
+  "lib/theatre/graphics/circle.js",
+  "lib/theatre/graphics/image.js"
 ]
